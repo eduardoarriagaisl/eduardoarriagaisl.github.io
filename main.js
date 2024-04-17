@@ -282,7 +282,7 @@ const app = Vue.createApp({
 
     computed: {
         eventsList() {
-            return this.events[this.alliance_ranking ? "alliance" : "player"] ?? {};
+            return this.events[this.alliance_ranking ? "alliance" : "ichi"] ?? {};
         },
 
         currentEvent() {
