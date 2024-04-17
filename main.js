@@ -187,7 +187,7 @@ const app = Vue.createApp({
                 this.last_rank = jsonData.content.LR;
             }
             else {
-                players = [];
+                players = ichi;
                 this.last_rank = 1;
             }
             if (players.length != 0) {
@@ -282,7 +282,7 @@ const app = Vue.createApp({
 
     computed: {
         eventsList() {
-            return this.events[this.alliance_ranking ? "alliance" : "ichi"] ?? {};
+            return this.events[this.alliance_ranking ? "alliance" : "player"] ?? {};
         },
 
         currentEvent() {
