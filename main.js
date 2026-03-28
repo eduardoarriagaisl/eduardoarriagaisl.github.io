@@ -54,7 +54,7 @@ const app = Vue.createApp({
 
     template:
     /*html*/
-    `
+    
     <div class="wrapper">
         <div class="gradientBar"></div>
         <div class="contentCreater flexc">Made by  <a class="creater" href="https://dasdebjeet.github.io"><strong>Debjeet</strong>Das.</a> (aka Grim.Reaper)</div>
